@@ -7,16 +7,16 @@ public class MissingArrays {
 
 	public static void main(String[] args) {
 
-		int[] numbers = new int[] { 1, 2, 3, 4, 6, 7 };
+		int[] numbers = { 1, 2, 3, 4, 6, 7 };
 
-		int total_num = numbers.length;
-		int expected_num_sum = total_num * ((total_num + 1) / 2);
-		int num_sum = 0;
+		int a = numbers.length;
+		int b = a * ((a + 1) / 2);
+		int c = 0;
 		for (int i : numbers) {
-			num_sum += i;
+			c += i;
 		}
-		System.out.print(num_sum - expected_num_sum);
-		System.out.print("\n");
+		System.out.print(c - b);
+		
 	}
 
 }
