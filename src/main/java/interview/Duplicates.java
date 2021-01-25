@@ -17,6 +17,7 @@ public class Duplicates {
 		// Remove duplicates
 		List<String> colors = Arrays.asList("Yellow", "Black", "Green", "Orange", "Purpple", "Red", "Red", "Yellow");
 		List<String> sorting = colors.stream().distinct().collect(Collectors.toList());
+		//List<String> sorting2 = colors.stream().sorted(comparator)
 	
 		System.out.println(sorting);
 

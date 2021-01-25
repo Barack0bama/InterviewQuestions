@@ -1,7 +1,5 @@
 package interview;
 
-import java.util.ArrayList;
-
 //find missing number in array.
 public class MissingArrays {
 
