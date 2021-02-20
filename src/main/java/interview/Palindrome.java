@@ -11,7 +11,7 @@ public class Palindrome {
 		 * System.out.println("Please enter a word "); Scanner sc = new
 		 * Scanner(System.in); String original = sc.next();
 		 */
-		String original = "dad";
+		String original = "mom";
 		String reverse = "";
 		int length = original.length();
 
